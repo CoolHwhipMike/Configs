@@ -1,0 +1,18 @@
+# $FreeBSD$
+#
+# .login - csh login script, read by login shell, after `.cshrc' at login.
+#
+# See also csh(1), environ(7).
+#
+
+# Query terminal size; useful for serial lines.
+if ( -x /usr/bin/resizewin ) /usr/bin/resizewin -z
+
+# Display a random cookie on each login.
+if ( -x /usr/bin/fortune ) /usr/bin/fortune freebsd-tips
+
+setenv PANEL_FIFO /tmp/panel-fifo
+setenv PANEL_HEIGHT 20
+setenv PANEL_FONT monospace:size=12
+setenv PANEL_WM_NAME bspwm_panel
+#export PANEL_FIFO PANEL_HEIGHT PANEL_FONT PANEL_WM_NAME

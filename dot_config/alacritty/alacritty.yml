@@ -1,0 +1,66 @@
+font:
+  size: 12.0
+draw_bold_text_with_bright_colors: true
+#colors:
+#  primary:
+#    background: '#000000'
+#    foreground: '#fff8e7'
+#  normal:
+#    black:   '#404040'
+#    red:     '#ab2b28'
+#    green:   '#478061'
+#    yellow:  '#f2ca30'
+#    blue:    '#1793d1'
+#    magenta: '#4f4472'
+#    cyan:    '#00b3b3'
+#    white:   '#bfbfbf'
+#  bright:
+#    black:   '#808080'
+#    red:     '#ed3737'
+#    green:   '#6bbf95'
+#    yellow:  '#ffe066'
+#    blue:    '#2eb6ff'
+#    magenta: '#7d6bb3'
+#    cyan:    '#00f2f2'
+#    white:   '#ffffff'
+background_opacity: 0.75
+cursor:
+  style:
+    blinking: On
+live_config_reload: true
+mouse:
+  hide_when_typing: true
+
+
+# TokyoNight Night
+colors:
+  # Default colors
+  primary:
+    background: '0x1a1b26'
+    foreground: '0xc0caf5'
+
+  # Normal colors
+  normal:
+    black:   '0x1a1b26'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xa9b1d6'
+
+  # Bright colors
+  bright:
+    black:   '0x15161E'
+    red:     '0xf7768e'
+    green:   '0x9ece6a'
+    yellow:  '0xe0af68'
+    blue:    '0x7aa2f7'
+    magenta: '0xbb9af7'
+    cyan:    '0x7dcfff'
+    white:   '0xc0caf5'
+
+  indexed_colors:
+    - { index: 16, color: '0xff9e64' }
+    - { index: 17, color: '0xdb4b4b' }
